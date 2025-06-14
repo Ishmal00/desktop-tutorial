@@ -1,5 +1,22 @@
-# Welcome to GitHub Desktop!
+# 🏡 House Classification Project
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+## 🧠 Overview
+An end-to-end ML pipeline built in Python using `SVC` to classify house categories based on features.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+## 🔍 Features
+- Object-Oriented code structure
+- SVC (Support Vector Classifier)
+- Visualizations (Histograms, Heatmaps)
+- Light-mode Streamlit UI
+- Scaler + Model saved using `pickle`
+
+## 📁 Folder Structure
+- `src/` - All modular class files
+- `app.py` - Streamlit frontend
+- `README.md` - Project documentation
+
+## 🚀 Running the App
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
